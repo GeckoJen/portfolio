@@ -1,0 +1,25 @@
+.Navbar {
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+    margin-right: 10%;
+ 
+}
+
+.button {
+   font-family: "Cabin", sans-serif;
+   margin: 0.3em;
+   background-color: rgb(193, 255, 234);
+}
+
+.button:hover {
+  color: white;
+  background: teal;
+  border-color: rgb(193, 255, 234);
+}
+
+.button:focus {
+  color: white;
+  background: teal;
+  border-color: rgb(193, 255, 234);
+}

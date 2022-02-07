@@ -1,0 +1,20 @@
+.expandButton {
+   font-size: 3vh;
+   height:6vh;
+   margin: 0.1em 0;
+   width: 20%;
+   float: right;
+   background-color: rgb(193, 255, 234);
+}
+
+.expandButton:hover {
+  color: white;
+  background: teal;
+  border-color: rgb(193, 255, 234);
+}
+
+.expandButton:focus {
+  color: white;
+  background: teal;
+   border-color: rgb(193, 255, 234);
+}

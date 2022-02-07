@@ -1,0 +1,13 @@
+
+.textBlock {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.textBlock p {
+margin-bottom: 4vh;
+}

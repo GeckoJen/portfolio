@@ -1,0 +1,29 @@
+.headerImage {
+  background-color: whitesmoke;
+background-image: url('../images/leone-venter-VieM9BdZKFo-unsplash-cropped.jpg');
+  width: 80%;
+  height: 40vh;
+  margin: 5vh auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    
+}
+
+.headerImage h1 {
+font-size: 12vh;
+  position: absolute;
+  top: 25%;
+  left: 16%;
+  font-family: "Cabin", sans-serif;
+   line-height: 1;
+}
+
+.headerImage #line2 {
+font-size: 12vh;
+  position: absolute;
+  top: 35%;
+  left: 16%;
+  font-family: "Cabin", sans-serif;
+   line-height: 1;
+}

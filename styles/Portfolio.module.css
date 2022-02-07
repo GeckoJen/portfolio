@@ -1,0 +1,55 @@
+.textBlock {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.textBlock p {
+margin-bottom: 4vh;
+}
+
+
+.linkButtonDiv {
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+
+
+.linkButton {
+   font-size: 3vh;
+   height:6vh;
+   margin: 0.1em 2em 2em 0;
+    background-color:  rgb(193, 255, 234);;
+   /* width: 70%; */
+}
+
+.linkButton:hover {
+  color: white;
+  background: teal;
+  border-color: rgb(193, 255, 234);
+}
+
+.linkButton:focus {
+  color: white;
+  background: teal;
+   border-color: rgb(193, 255, 234);
+}
+
+/* .linkButton ::selection {
+  color: white;
+  background: red;
+   border-color: rgb(193, 255, 234);
+} */
+
+.doc {
+font-size: 0.8em;
+}
+
+.date {
+text-align: right;
+}

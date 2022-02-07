@@ -1,0 +1,40 @@
+.textBlock {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 1.5rem;
+}
+
+.textBlock h2, .textBlock h3 {
+    color: white;
+    font-family: "Cabin", sans-serif;
+    
+}
+
+
+.block {
+    display: flex;
+    align-items: center;
+    margin: 4vh 0;
+    
+}
+
+.block h3 {
+    margin-left: 4vh;
+    font-size: 3vh;
+    text-align: justify;
+}
+
+.block h3 a {
+    color: teal;
+}
+
+.card {
+    background-color: rgb(193, 255, 234);
+    font-size: 2.5vh;
+    min-width: 25%;
+    max-width: 25%;
+    border-radius: 3vh;
+}
+
