@@ -15,8 +15,7 @@ function About() {
         <div className={styles.textBlock}>
           <SectionButton title="overview" />
           <p>
-            After a rewarding career as an asset finance solicitor,
-            circumstances led to me taking a break and for the last 7 years I
+            After a rewarding career as an asset finance solicitor, for the last 7 years I
             have pursued a couple of self-employment ventures, one as a textile
             artist and the other designing online escape rooms. I taught myself
             to build a website from scratch for my escape room business, and I
@@ -33,7 +32,7 @@ function About() {
               the front-end, and am currently learning Next.js (which I am using
               for this site). On the back-end, I am familiar with Node.js,
               setting up Express servers and connecting to Postgres databases,
-              and creating RESTful API routes to access the data. I have used a
+              and creating RESTful API routes to access the data.
               See my portfolio for more examples of projects I&apos;ve made.
             </p>
             <div className={styles.codingImage}></div>
