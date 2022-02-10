@@ -24,13 +24,20 @@ export default function Home() {
               portfolio
             </Button>
           </Link>
-          <a href="https://www.linkedin.com/in/jenny-taylor-2b199b224" target="_blank">
+          <a
+            href="https://www.linkedin.com/in/jenny-taylor-2b199b224"
+            target="_blank" rel="noreferrer"
+          >
             <Button shape="round" block className={styles.button}>
+              follow me
               <img
                 src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
-                className={styles.linkedIn}
+                className={styles.icons}
               />
-              follow me
+              {/* <img
+                src="https://www.clipartmax.com/png/middle/160-1600742_github-icon.png"
+                className={styles.icons}
+              /> */}
             </Button>
           </a>
 

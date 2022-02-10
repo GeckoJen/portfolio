@@ -17,13 +17,12 @@ font-size: 12vh;
   left: 16%;
   font-family: "Cabin", sans-serif;
    line-height: 1;
+           background-image: url(https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif) ;
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* -webkit-text-stroke: 1px black; */
 }
 
-.headerImage #line2 {
-font-size: 12vh;
-  position: absolute;
-  top: 35%;
-  left: 16%;
-  font-family: "Cabin", sans-serif;
-   line-height: 1;
-}

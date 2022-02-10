@@ -17,18 +17,32 @@ background-color: whitesmoke;
   left: 16%;
   font-family: "Cabin", sans-serif;
   text-align: center;
+
 }
 
 .text h1 {
    font-size: 10vh;
    margin-bottom: 0;
    line-height: 1.3;
+     background-image: url(https://media.giphy.com/media/xT9IgN8YKRhByRBzMI/giphy.gif);
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+ 
 }
 
 .text h2 {
   margin-top: 0;
    font-size: 6vh;
    line-height: 1;
+        /* background-image: url(https://media.giphy.com/media/3o7qDNfxtNRtLVv8qs/giphy.gif) ;
+  background-size: cover;
+  color: transparent;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text; */
 }
 
 .button {
@@ -51,9 +65,9 @@ background-color: whitesmoke;
    border-color: rgb(193, 255, 234);
 }
 
-.linkedIn {
+.icons {
   height: 3vh;
-  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 

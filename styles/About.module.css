@@ -4,10 +4,39 @@
     font-family: "Cabin", sans-serif;
     width: 80%;
     margin: 0 auto;
-    font-size: 3vh;
+    font-size: 2em;
     text-align: justify;
 }
 
 .textBlock p {
-margin-bottom: 4vh;
+margin-bottom: 0;
+}
+
+.sectionDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-bottom: 1em;
+}
+
+.codingImage {
+background-image: url('../images/codinglanguages.jpg');
+background-size: cover;
+width: 10em;
+height:8em;
+flex-shrink: 0;
+/* float: right; */
+margin-left: 2em;
+border-radius: 20px;
+}
+
+.personalImage {
+background-image: url('../images/me.jpg');
+background-size: cover;
+width: 10em;
+height: 8em;
+/* float: left; */
+flex-shrink: 0;
+margin-right: 2em;
+border-radius: 20px;
 }

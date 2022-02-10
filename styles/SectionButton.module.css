@@ -1,16 +1,14 @@
 .card {
-    /* width: 15%; */
-   /* display: inline-block; */
-   /* float: left; */
-      color: white;
+  color: white;
   background: teal;
   border-color: rgb(193, 255, 234);
- border-radius: 3vh;
+  border-radius: 3vh;
+  margin: 1em 0;
 }
 
 .card h2 {
-     color: white;
- font-family: "Cabin", sans-serif;
-  font-size: 4vh;
+  color: white;
+  font-family: "Cabin", sans-serif;
+  font-size: 1.2em;
   text-align: center;
 }
