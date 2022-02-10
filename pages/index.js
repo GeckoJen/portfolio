@@ -8,30 +8,31 @@ import Navbar from '../src/components/Navbar';
 export default function Home() {
 
   return (
-    <body>
+    <div className="body">
       <Navbar />
       <div className={styles.image}>
         <div className={styles.text}>
           <h1>Jenny Taylor</h1>
-          <h2>software developer</h2>
-          <Link href="/about">
+          <h2>software engineer</h2>
+          <Link href="/about" >
             <Button shape="round" block className={styles.button}>
               about me
             </Button>
           </Link>
-          <Link href="/portfolio">
+          <Link href="/portfolio" >
             <Button shape="round" block className={styles.button}>
               portfolio
             </Button>
           </Link>
           <a
             href="https://www.linkedin.com/in/jenny-taylor-2b199b224"
-            target="_blank" rel="noreferrer"
+            target="_blank"
+            rel="noreferrer"
           >
             <Button shape="round" block className={styles.button}>
               follow me
               <img
-                src="https://cdn-icons-png.flaticon.com/512/174/174857.png"
+                src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="linkedIn logo"
                 className={styles.icons}
               />
               {/* <img
@@ -48,7 +49,7 @@ export default function Home() {
           </Link> */}
         </div>
       </div>
-    </body>
+    </div>
   );
 }
 

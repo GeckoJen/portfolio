@@ -9,7 +9,7 @@ function About() {
 
 
     return (
-      <body>
+      <div className="body">
         <Navbar />
         <HeaderTitle title="about me" />
         <div className={styles.textBlock}>
@@ -50,7 +50,7 @@ function About() {
             </p>
           </div>
         </div>
-      </body>
+      </div>
     );
 }
 

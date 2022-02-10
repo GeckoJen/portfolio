@@ -11,7 +11,7 @@ console.log(projects)
   projects.reverse();
   
     return (
-      <body>
+      <div className="body">
         <Navbar />
         <HeaderTitle title="portfolio" />
     
@@ -21,7 +21,7 @@ console.log(projects)
             deploy={project.fields.deploy} github={project.fields.github} documentation={project.fields.documentation} date={project.fields.date}
           />
         })} 
-      </body>
+      </div>
     );
 }
 
