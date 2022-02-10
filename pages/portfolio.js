@@ -7,8 +7,9 @@ import { createClient } from 'contentful';
 
 function Portfolio({ projects }) {
  
-console.log(projects)
-  projects.reverse();
+  console.log(projects)
+//sort projects in reverse date order
+  projects.sort((a, b)=>{return new Date(b.fields.date.split("T")[0]) - new Date(a.fields.date.split("T")[0]);});
   
     return (
       <div className="body">
