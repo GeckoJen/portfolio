@@ -20,9 +20,9 @@ function About() {
             have pursued a couple of self-employment ventures, one as a textile
             artist and the other designing online escape rooms. I taught myself
             to build a website from scratch for my escape room business, and I
-            loved it so much I'm now looking to begin a new career in tech as a
-            software developer. I am currently undertaking a coding bootcamp
-            course from The School of Code.
+            loved it so much I&apos;m now looking to begin a new career in tech
+            as a software developer. I am currently undertaking a coding
+            bootcamp course from The School of Code.
           </p>
           <SectionButton title="coding skills" />
           <div className={styles.sectionDiv}>
@@ -34,7 +34,7 @@ function About() {
               for this site). On the back-end, I am familiar with Node.js,
               setting up Express servers and connecting to Postgres databases,
               and creating RESTful API routes to access the data. I have used a
-              See my portfolio for more examples of projects I've made.
+              See my portfolio for more examples of projects I&apos;ve made.
             </p>
             <div className={styles.codingImage}></div>
           </div>
@@ -44,9 +44,9 @@ function About() {
             <p>
               {" "}
               I live in Manchester with my husband, two children, a dog and an
-              extensive gin collection. When I'm not coding or running my small
-              businesses, I enjoy learning Spanish, playing games and learning
-              new creative skills such as lino-cutting.
+              extensive gin collection. When I&apos;m not coding or running my
+              small businesses, I enjoy learning Spanish, playing games and
+              learning new creative skills such as lino-cutting.
             </p>
           </div>
         </div>
