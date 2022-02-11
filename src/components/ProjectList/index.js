@@ -53,8 +53,8 @@ function ProjectList({
           className={styles.image}
           src={image}
           alt="Homepage of deployed app"
-          width="600px"
-          height="300px"
+          width="1000px"
+          height="500px"
           margin="1em auto"
         />
         </div>
