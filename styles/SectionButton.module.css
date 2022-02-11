@@ -12,3 +12,10 @@
   font-size: 1.2em;
   text-align: center;
 }
+
+
+@media screen and (max-width: 700px) {
+  .card h2 {
+    font-size: 1.3rem;
+  }
+}

@@ -3,13 +3,13 @@
   font-family: "Cabin", sans-serif;
   width: 80%;
   margin: 0 auto;
-  font-size: 2em;
+  font-size: 1.4rem;
   text-align: justify;
 }
 
 .previewBlock {
   display: grid;
-  grid-template-columns: 400px 1fr;
+  grid-template-columns: 3fr 4fr;
   text-align: right;
 }
 
@@ -22,24 +22,35 @@
 
 .description {
   grid-column: 2;
- margin-left: 1em;
-
- }
+  margin-left: 1em;
+}
 
 .image {
   display: block;
-  width: 30%;
+  /* width: 30%; */
   margin: 1em auto;
   border-radius: 20px;
-   grid-column: 1;
+  grid-column: 1;
+
+}
+
+.imageContainer {
+  width: 100%;
+  display: flex;
+  padding: 0.2rem;
+  background-color: rgb(193, 255, 234);
+   border-radius: 20px;
+ 
+  
 }
 
 .expandButton {
   font-size: 1.5rem;
   height: 6vh;
   margin: 0.1em 0;
+  padding: 0 0.8rem;
   background-color: rgb(193, 255, 234);
-   grid-column: 2;
+  grid-column: 2;
 }
 
 .expandButton:hover {
@@ -61,10 +72,11 @@
 
 .linkButton {
   font-size: 1.5rem;
+  padding: 0 0.8rem;
   height: 6vh;
   margin: 1em;
   background-color: rgb(193, 255, 234);
- }
+}
 
 .linkButton:hover {
   color: white;
@@ -78,11 +90,90 @@
   border-color: rgb(193, 255, 234);
 }
 
-.doc  {
-  font-size: 0.8em;
+.doc {
+  font-size: 1.2rem;
   text-align: justify;
 }
 
 .date {
   text-align: right;
+  font-size: 1rem;
+}
+
+
+@media screen and (max-width: 780px) {
+  .textBlock {
+  font-size: 1rem;
+}
+
+.linkButton {
+  font-size: 1rem;
+}
+
+.expandButton {
+  font-size: 1rem;
+  height: 4.5vh;
+  padding: 0 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.doc {
+  font-size: 1rem;
+
+}
+}
+
+@media screen and (max-width: 650px) {
+  .previewBlock {
+  display: flex;
+  flex-direction: column-reverse;
+  text-align: left;
+}
+
+.image {
+  min-width: 100%;
+}
+
+.textBlock {
+  font-size: 1rem;
+}
+
+.imageContainer {
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.flexDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.expandButton {
+  font-size: 1rem;
+  height: 4.5vh;
+  padding: 0 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.linkButtonDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.linkButton {
+
+  height: 4.5vh;
+  margin: 0.5rem;
+  background-color: rgb(193, 255, 234);
+}
+
+.date {
+  font-size: 0.8rem;
+}
+
 }

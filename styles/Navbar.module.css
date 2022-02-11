@@ -23,3 +23,10 @@
   background: teal;
   border-color: rgb(193, 255, 234);
 }
+
+@media screen and (max-width: 700px) {
+  .Navbar {
+    justify-content: center;
+    margin: 1rem;
+  }
+}

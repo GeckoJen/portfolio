@@ -7,7 +7,7 @@ background-image: url('../images/leone-venter-VieM9BdZKFo-unsplash-cropped.jpg')
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-    
+    background-position: right center;
 }
 
 .headerImage h1 {
@@ -25,3 +25,20 @@ font-size: 12vh;
   background-clip: text;
 }
 
+@media screen and (max-width: 800px) {
+  .headerImage h1 {
+font-size: 9vh;
+top: 27%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .headerImage {
+    height: 25vh;
+  }
+
+  .headerImage h1 {
+font-size: 6vh;
+top: 23%;
+  }
+}

@@ -4,7 +4,7 @@
     font-family: "Cabin", sans-serif;
     width: 80%;
     margin: 0 auto;
-    font-size: 2em;
+    font-size: 1.4rem;
     text-align: justify;
 }
 
@@ -31,12 +31,39 @@ border-radius: 20px;
 }
 
 .personalImage {
-background-image: url('../images/me.jpg');
+background-image: url('../images/me2.jpg');
 background-size: cover;
+background-position: center;
 width: 10em;
 height: 8em;
 /* float: left; */
 flex-shrink: 0;
 margin-right: 2em;
 border-radius: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .textBlock p {
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .sectionDiv{
+        flex-direction: column;
+    }
+
+    .codingImage {
+        margin: 0;
+        margin-top: 1rem;
+    }
+
+    .personalImage {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+
+    .textBlock p {
+        font-size: 1rem;
+    }
 }

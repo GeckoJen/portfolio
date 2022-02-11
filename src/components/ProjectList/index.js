@@ -48,14 +48,16 @@ function ProjectList({
     <div className={styles.textBlock}>
       <SectionButton title={title} />
       <div className={styles.previewBlock}>
+        <div className={styles.imageContainer}>
         <Image
           className={styles.image}
           src={image}
           alt="Homepage of deployed app"
-          width="400px"
-          height="200px"
+          width="600px"
+          height="300px"
           margin="1em auto"
         />
+        </div>
         <div className={styles.flexDiv}>
           <Button
             shape="round"
